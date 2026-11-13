@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "sensor": {"status": {"state": {"off": "Aus", "ready": "Bereit", "active": "Aktiv"}}},
+    "select": {"mode": {"state": {"off": "Aus", "auto": "Automatisch", "manual": "Manuell"}}}
+  },
+  "services": {
+    "set_mode": {"name": "Modus setzen", "description": "Setzt den hausweiten Modus der Anwesenheitssimulation.", "fields": {"mode": {"name": "Modus", "description": "off | auto | manual"}}},
+    "start": {"name": "Jetzt starten", "description": "Startet die Simulation manuell (Modus Manuell).", "fields": {"profile_id": {"name": "Profil-ID", "description": "Optional, sonst das eingestellte bzw. erste aktive Profil"}}},
+    "stop": {"name": "Manuell beenden", "description": "Beendet eine manuell gestartete Simulation."},
+    "replan": {"name": "Plan neu würfeln", "description": "Erzeugt den Tagesplan neu."}
+  }
+}

@@ -1,0 +1,15 @@
+set_mode:
+  fields:
+    mode:
+      required: true
+      selector:
+        select:
+          options: ["off", "auto", "manual"]
+start:
+  fields:
+    profile_id:
+      required: false
+      selector:
+        text:
+stop:
+replan:

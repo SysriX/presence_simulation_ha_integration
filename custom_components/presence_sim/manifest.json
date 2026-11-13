@@ -1,0 +1,23 @@
+{
+  "domain": "presence_sim",
+  "name": "Presence Simulation",
+  "after_dependencies": [
+    "light",
+    "group",
+    "input_select",
+    "sun",
+    "light_schedule",
+    "light_lux"
+  ],
+  "codeowners": [
+    "@SysriX"
+  ],
+  "dependencies": [
+    "websocket_api"
+  ],
+  "documentation": "https://github.com/SysriX/presence_simulation_ha_integration",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/SysriX/presence_simulation_ha_integration/issues",
+  "requirements": [],
+  "version": "1.2.0"
+}

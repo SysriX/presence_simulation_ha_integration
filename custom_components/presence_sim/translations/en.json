@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "sensor": {"status": {"state": {"off": "Off", "ready": "Ready", "active": "Active"}}},
+    "select": {"mode": {"state": {"off": "Off", "auto": "Automatic", "manual": "Manual"}}}
+  },
+  "services": {
+    "set_mode": {"name": "Set mode", "description": "Sets the house-wide presence simulation mode.", "fields": {"mode": {"name": "Mode", "description": "off | auto | manual"}}},
+    "start": {"name": "Start now", "description": "Starts the simulation manually (mode manual).", "fields": {"profile_id": {"name": "Profile ID", "description": "Optional, otherwise the configured or first enabled profile"}}},
+    "stop": {"name": "Stop manual", "description": "Stops a manually started simulation."},
+    "replan": {"name": "Re-roll plan", "description": "Generates the daily plan again."}
+  }
+}
