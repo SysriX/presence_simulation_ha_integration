@@ -2,6 +2,9 @@
 
 House-wide presence simulation for Home Assistant. While nobody is home, lights are switched room by room following a realistic daily plan (evening, going to bed, a short trip at night, morning routine) instead of a fixed timer.
 
+![Presence Simulation preview](docs/images/preview.png)
+*Presence tab in the [Room Panel card](https://github.com/SysriX/room_panel_ha_card): running profile, today's generated plan per room and the event log (UI in German)*
+
 Integration domain: `presence_sim`  
 Version: 1.2.0  
 UI language of the built-in texts (plan entries, reasons, log): German
